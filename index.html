@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leaderboard</title>
+    <meta charset="UTF-8"/>
+    <link href="/docs/output.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="src/index.js" type="module"></script>
+</head>
+
+<body class="px-2">
+<div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-2xl lg:mx-0">
+        <h2 class="text-4xl font-bold tracking-tight text-blue-700 sm:text-6xl">Таблица лидеров</h2>
+        <p class="mt-6 text-lg leading-8 text-gray-300">Обновление по мере проверки</p>
+    </div>
+<ul id='studentsList' role="list" class="divide-y divide-gray-100">
+    <li v-for="student in students" class="flex gap-x-4 py-5">
+
+        <img class="h-12 w-12 flex-none rounded-full bg-gray-50" :src=student.avatarUrl alt="">
+        <div class="min-w-0">
+            <p class="text-sm font-semibold leading-6 text-gray-900">{{student.name}}</p>
+            <p class="mt-1 truncate text-xs leading-5 text-gray-500">Работ сдано: {{student.scores.length}}</p>
+            <p class="mt-1 truncate text-xs leading-5 text-gray-500">Сумма баллов: {{student.totalScore}}</p>
+        </div>
+    </li>
+</ul>
+</body>
+</html>
