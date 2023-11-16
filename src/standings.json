@@ -13,42 +13,47 @@
     {
       "name": "Егор",
       "id": 3,
-      "scores": [9]
+      "scores": [9, 15]
     },
     {
       "name": "Сергей С.",
       "id": 4,
-      "scores": [9]
+      "scores": [9, 14]
     },
     {
       "name": "Анастасия",
       "id": 5,
-      "scores": [10]
+      "scores": [10, 15]
     },
     {
       "name": "Иван",
       "id": 6,
-      "scores": [16]
+      "scores": [16, 17]
     },
     {
       "name": "Денис",
       "id": 7,
-      "scores": [11]
+      "scores": [11, 10]
     },
     {
       "name": "Луспарон",
       "id": 8,
-      "scores": [6]
+      "scores": [6, 18]
     },
     {
       "name": "Андрей",
       "id": 9,
-      "scores": [11]
+      "scores": [11, 15]
     },
     {
       "name": "Ли",
       "id": 10,
-      "scores": [12]
+      "scores": [12, 16]
+    },
+    {
+      "name": "Родион",
+      "id": 11,
+      "scores": [14]
     }
   ]
 }
